@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Martel Sans";
+    scroll-behavior: smooth;
+    
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 0, 0, 0.085);
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(102, 5, 5);
+  }
+img{
+    position: relative;
+    z-index: 4;
+    width: 300px;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+.conatiner{
+   
+    background-image: url(images/netflix_bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    width: 100vw;
+    height: 1711px;
+}
+.container1{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 1711px;
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.671);
+  position: absolute;
+   width: 600px;
+   z-index: 5;
+   padding-left: 100px;
+   margin-left: 730px;
+   height: 900px;
+
+}
+p.sign{
+    color: white;
+    font-size: 50px;
+    z-index: 100;
+    width: 500px;
+    padding-top: 80px;
+    font-weight: 800;
+
+}
+input#inp{
+    width: 480px;
+    height: 70px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.168);
+    /* border: 2px solid white; */
+    border: none;
+    border-radius: 6px;
+    margin-bottom:30px ;
+    font-size: 20px;
+    padding-left: 20px;
+}
+input#inp:nth-child(2){
+    margin-top: 30px;
+}
+button#si{
+    width: 500px;
+    height: 70px;
+    color: white;
+    margin-top: 40px;
+    background-color: rgb(255, 4, 4);
+    /* border: 2px solid white; */
+    border: none;
+    border-radius: 6px;
+    margin-bottom:30px ;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.fp{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    width: 84%;
+    font-size: 20px;
+
+}
+input#hi{
+    height: 30px;
+    width: 50px;
+    background-color: grey;
+}
+.ltext{
+    margin-top: 100px;
+}
+p#bg{
+    font-size: 25px;
+    color: grey;
+    display: inline;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+p#lastp{
+    margin-top: 15px;
+    color: grey;
+    font-size: 20px;
+    padding-right: 40px;
+}
+em{
+    color: #0f68c7;
+}
+.lcontainer{
+    background-color: rgba(0, 0, 0, 0.787);
+    margin-top: 1005px;
+    height: 500px;
+    padding-top: 50px;
+    position: absolute;
+    width: 100%;
+    z-index: 90;
+
+
+
+  }
+  a{
+    text-decoration: none;
+  }
+  p#ques{
+    color: grey;
+    font-size: 30px;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 200px;
+  }
+  .list{
+    display: flex;
+    gap: 70px;
+    padding-top: 50px;
+   
+  }
+  ul{ padding-left: 200px;
+    color: grey;
+    list-style: none;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+  li{
+    margin-top: 10px;
+  }
+  button#si:hover {
+    background-color: rgba(255, 0, 0, 0.28);
+  }

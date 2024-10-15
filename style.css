@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Martel Sans";
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0.085);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(102, 5, 5);
+}
+
+body {
+  /* position:absolute; */
+  background-color: rgb(32, 31, 31);
+}
+.nav {
+  color: rgba(240, 248, 255, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1130px;
+  z-index: 1;
+  position: absolute;
+  left: 170px;
+}
+
+.container1 {
+  background-image: url(images/netflix_bg1.jpg);
+  height: 80vh;
+  width: 100vw;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container2 {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 80vh;
+  width: 100vw;
+  position: absolute;
+}
+.text {
+  position: absolute;
+  color: white;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-top: 350px;
+  flex-direction: column;
+  height: 80vh;
+  width: 100%;
+}
+#text1 p {
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+}
+#text2 p {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+}
+#text3 p {
+  font-size: 30px;
+  text-align: center;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 25px;
+}
+input {
+  height: 75px;
+  width: 438px;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.336);
+  border: 1px solid white;
+  color: white;
+  font-weight: 400;
+  padding-left: 30px;
+}
+
+.btns {
+  display: flex;
+  gap: 30px;
+}
+
+button.log1 {
+  background-color: red;
+  width: 300px;
+  color: white;
+  font-size: 30px;
+  border: 1px solid red;
+  border-radius: 8px;
+  font-weight: bolder;
+  padding-left: -20px;
+}
+button.log1:hover {
+  background-color: rgba(255, 0, 0, 0.28);
+}
+
+
+
+button#lang {
+  width: 220px;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+}
+button#sign {
+  width: 120px;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 6px;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+}
+button.side {
+  height: 45px;
+}
+.container3 {
+  display: flex;
+  gap: 250px;
+  height: 60vh;
+  background-color: black;
+  margin-top: 15px;
+  width: 100vw;
+}
+.tv {
+  position: relative;
+  margin-top: 170px;
+}
+img#tvi {
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+  }
+  video#vdi {
+    position: absolute;
+    left: 77px;
+    top: 97px;
+  }
+.text1 {
+  color: white;
+  text-align: left;
+  margin-left: 300px;
+  margin-top: 250px;
+}
+.text2 {
+    color: white;
+    text-align: left;
+    margin-left: 1000px;
+    margin-top: 200px;
+
+  }
+p#big {
+  font-size: 90px;
+  font-weight: bold;
+}
+p#small {
+  font-size: 30px;
+}
+.container4{
+    display: flex;
+    gap: 180px;
+    height: 60vh;
+    background-color: black;
+    margin-top: 15px;
+    width: 100vw;
+    position: relative;
+}
+p#big1 {
+    font-size: 90px;
+    font-weight: bold;
+  }
+  p#small1 {
+    font-size: 30px;
+  }
+  img#mbi {
+    position: absolute;
+    top: 80px;
+    width: 35vw;
+    margin-left: 100px;
+  }
+  .over{
+    background-color: black;
+    border: 3px solid grey;
+    border-radius: 10px;
+    display: flex;
+   padding: 10px;
+    z-index: 100;
+    position: absolute;
+    top: 450px;
+    left: 265px;
+  }
+  img#st{
+    width: 80px;
+  }
+  #gif{
+    margin-top: 10px;
+  }
+  p#st1{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  p#st2{
+    font-size: 23px;
+    font-weight: 600;
+    color: rgba(0,56,117,255);
+    text-align: left;
+    padding-left: 20px;
+  }
+  img#tvi1 {
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    width: 30vw;
+  }
+  video#vdi1 {
+    position: absolute;
+    left: 123px;
+    top: 44px;
+    width: 18.5vw;
+  }
+  p#big11 {
+    font-size: 80px;
+    font-weight: bold;
+  }
+  .container5{
+    background-color: black;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+
+  }
+  p.faq{
+    color: white;
+    font-size: 80px;
+    font-weight: bold ;
+
+  }
+  .faqs{
+    width: 75%;
+    background-color: rgba(45,44,44,255);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px 30px 40px;
+    font-size: 40px;
+    color: white;
+  }
+  .faqs:hover{
+    background-color: rgb(149, 149, 149);
+  }
+  .faqcont{
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    gap: 20px;
+    height: 1150px;
+  }
+  p#lastp{
+    color: white;
+    font-size: 30px;
+  }
+  .lastp{
+    padding-top: 30px;
+  }
+  .lcontainer{
+    background-color: black;
+    margin-top: 15px;
+    height: 500px;
+    padding-top: 50px;
+
+
+
+  }
+  p#ques{
+    color: grey;
+    font-size: 30px;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 200px;
+  }
+  .list{
+    display: flex;
+    gap: 70px;
+    padding-top: 50px;
+   
+  }
+  ul{ padding-left: 200px;
+    color: grey;
+    list-style: none;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+  li{
+    margin-top: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
